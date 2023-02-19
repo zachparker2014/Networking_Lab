@@ -1,5 +1,5 @@
 # Documentation of Creating SMB Network Infrastructure
------
+
 Networking lab project performed while at Divergence Academy.
 
 Worked in a five-man team to create an SMB network with a LAN, DMZ, and Guest network. Used a GNS3, a network simulation environment, 
@@ -16,6 +16,7 @@ The first task was to build out the starting network shown above to match the ba
 3. Added a Win10 workstation to the LAN network.
 4. Connected to the firewall GUI from the Win10 workstation.
 5. Completed the network setup through the firewall GUI.
+
 ![Part 1 Network Setup](https://github.com/zachparker2014/Networking_Lab/blob/main/Images/NTNT%20Project-Stage2.drawio.png)
 ## Part 2: Setting Up the Domain Controller
 Built a windows domain for the customers small business envirmonment.
@@ -30,6 +31,7 @@ Built a IIS webserver on Win2012r2 server, and joined the server to the domain
 2.  Prepared a Windows 2012 server to join the domain.
 3.  Installed the “Internet Information Services” server role.
 4.  Added a test webpage, and verified access over the LAN network.
+
 ![Part 3 Network Setup](https://github.com/zachparker2014/Networking_Lab/blob/main/Images/NTNT%20Project-Stage3.drawio.png)
 ## Part 4: Creating a LAMP Webserver and a Dokuwiki
 Built a LAMP Webserver on Ubuntu server  located on the DMZ netwrok
@@ -37,12 +39,14 @@ Built a LAMP Webserver on Ubuntu server  located on the DMZ netwrok
 2.  Installed DokuWiki on the server.
 3.  Configured DokuWiki.
 4.  Setup a VIP for the public side of the webserver on the firewall.
+
 ![Part 4 Network Setup](https://github.com/zachparker2014/Networking_Lab/blob/main/Images/NTNT%20Project-Stage4.drawio.png)
 ## Part 5: Configuring an FTP Server
 Built an FTP Server on a Windows 2012 server located on the DMZ netwrok.
 1.   Prepared a Windows 2012 server.
 2.   Installed the FTP service.
 3.   Configured the FTP service to only be modified/viewed by the admin group.
+
 ![Part 5 Network Setup](https://github.com/zachparker2014/Networking_Lab/blob/main/Images/NTNT%20Project-Stage5.drawio.png)
 ## Part 6: Hardening the enviroment
 In this part, the group broke up and researched multiple topics on hardening a network. The results were compiled into the "Hardening Research" document. 
