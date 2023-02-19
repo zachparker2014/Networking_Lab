@@ -1,4 +1,4 @@
-# Documentation of Creating SMB Network Infrastructure
+# Documentation of Creating Small Business Network Infrastructure
 
 Networking lab project performed while at Divergence Academy.
 
