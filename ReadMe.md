@@ -9,6 +9,7 @@ firewall with a VIP for the DMZ web server.
 
 ## Part 1: Standing Up the Network
 ![Starting Network](https://github.com/zachparker2014/Networking_Lab/blob/main/Images/NTNT%20Project-Stage1.drawio.png)
+
 The first task was to build out the starting network shown above to match the basic network shown below.
 1. Added the new devices to the lab workspace in GNS3.
 2. Configured the LAN network on the firewall through the CLI.
